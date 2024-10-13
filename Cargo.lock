@@ -8,6 +8,7 @@ version = "0.1.0"
 dependencies = [
  "num_cpus",
  "num_threads",
+ "thread-control",
 ]
 
 [[package]]
@@ -40,3 +41,9 @@ checksum = "5c7398b9c8b70908f6371f47ed36737907c87c52af34c268fed0bf0ceb92ead9"
 dependencies = [
  "libc",
 ]
+
+[[package]]
+name = "thread-control"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "22e002431352cce4e76fd6fe77d5bf1b75ff790ea790602f0579ce58641c2eea"

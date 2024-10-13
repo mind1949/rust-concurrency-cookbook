@@ -1,8 +1,4 @@
-use std::{
-    borrow::{Borrow, BorrowMut},
-    cell::RefCell,
-    thread,
-};
+use std::{cell::RefCell, thread};
 
 pub fn start_thread_with_threadlocal() {
     thread_local!(static COUNTER: RefCell<u8> = RefCell::new(1));
