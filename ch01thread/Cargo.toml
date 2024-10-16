@@ -4,6 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+crossbeam = "0.8.4"
+go-spawn = "0.1.2"
+#affinity = "0.1.2"
 num_cpus = "1.16.0"
 num_threads = "0.1.7"
+rayon = "1.10.0"
+send_wrapper = "0.6.0"
 thread-control = "0.1.2"
+thread-priority = "1.1.0"
